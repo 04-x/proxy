@@ -1,0 +1,16 @@
+{
+  "name": "04-x-proxy",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "ba1uev",
+  "license": "MIT",
+  "dependencies": {
+    "@fastify/cors": "^8.4.1",
+    "@fastify/http-proxy": "^9.2.1",
+    "fastify": "^4.24.3"
+  },
+  "scripts": {
+    "watch": "node --watch index.js",
+    "start": "node index.js"
+  }
+}
